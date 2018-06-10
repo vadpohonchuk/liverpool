@@ -1,0 +1,66 @@
+.navbar-expand-md .navbar-nav .nav-link{
+    
+/*  color задає колір тексту  */
+    color: #fff;
+}
+.navbar{
+    background: #fff;
+}
+
+.navbar-light .navbar-brand{
+/*  всі букви великі  */
+    text-transform: uppercase;
+    
+    color: red;
+}
+
+.navbar-light .navbar-brand:hover{
+    color: #fff;
+}
+
+.nav-item{
+/*  Ширина   */
+    width: 140px;
+    background-color: red;
+    margin-left: 2px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .active, .navbar-light .navbar-nav .active>.nav-link{
+    background-color: #dee5ef;
+}
+
+.main-slider{
+/*  Висота  */
+    height: 90vh;
+}
+
+.main-slider img{
+    width: 100%;
+    height: 90vh;
+}
+
+.liverpool h1{
+    color: red;
+/*  Жирність шрифту  */
+    font-weight: bold;
+/*  Розмір шрифту, тобто букв  */
+    font-size: 2.5em;
+    text-transform: uppercase;
+/*   відступ зверху */
+    padding-top: 20px;
+}
+
+.liverpool h2{
+    color: red;
+    font-weight: bold;
+    font-size: 1.8em;
+/*   кожна перша буква стає великою */
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+.liverpool img{
+    width: 400px;
+    height: 400px;
+}
